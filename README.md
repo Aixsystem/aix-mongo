@@ -1,6 +1,6 @@
 # aix-mongo
 
-Node.js module for managing mongodb ( [Developed With Love at Aixsystem core development department](http://www.aixsystem.com/) )
+Node.js module for managing mongodb ( [Developed With Love at AIX System core development department](http://www.aixsystem.com/) )
 
 This is a module that you can easily manage your mongodb database for inserting, updating, finding or removing your documnets.
 
