@@ -31,11 +31,11 @@ Usage of `aix-mongo` is very simple. There is just a few functions.
 ```js
 db.objId(string);
 // Usage example in a remove function.
-db.update("clients", {_id:db.objId(req.body.id)}, function(){
+db.remove("clients", {_id:db.objId(req.body.id)}, function(){
     console.log("Client removed!");
 });
 // Or handy write and id
-db.update("clients", {_id:db.objId("56798c9b4a2572512542145f")}, function(){
+db.remove("clients", {_id:db.objId("56798c9b4a2572512542145f")}, function(){
     console.log("Client removed!");
 });
 
